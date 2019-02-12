@@ -7,7 +7,7 @@ int main(void){
 	char *p;
 	int n;
 	errno = 0;
-	n=scanf("%m[a-z][0-9][]",&p);
+	n=scanf("%m[a-z]",&p);
 	if(n==1){
 		printf("read: %s\n",p);
 		free(p);
